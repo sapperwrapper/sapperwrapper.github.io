@@ -6,5 +6,4 @@ $headers = $_POST['email'];
 
 mail('sapperwrapper@gmail.com', $subject, $message, $headers);
 
-die('Thank you for your comment');
 }
